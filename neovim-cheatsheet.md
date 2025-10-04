@@ -24,3 +24,13 @@
 - `ciw`: Change inner word
 - `caw`: Change a word (including surrounding spaces)
 - `cW`: Change current WORD (including punctuation)
+
+## Motion Commands
+
+| Command | Description |
+|---------|-------------|
+| `f` + char | Find next occurrence of char on the current line |
+| `F` + char | Find previous occurrence of char on the current line |
+| `t` + char | Find next occurrence of char on the current line, stopping before it |
+| `T` + char | Find previous occurrence of char on the current line, stopping before it |
+| `r` + char | Replace the character under the cursor with char |
