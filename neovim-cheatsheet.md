@@ -2,15 +2,17 @@
 
 ## Advanced Text Selection Commands
 
-### Selecting Text Within Parentheses and Braces
-- `vi(`: Select all text within a set of parentheses (excluding the parentheses).
-- `vi{` or `vi}`: Select everything inside curly braces (excluding the braces).
+### Selecting Text Within Delimiters
+- `vi` followed by an opening delimiter (e.g., `(`, `{`, `[`, `"`, `'`) selects all text within the matching delimiters (excluding the delimiters).
+  - Examples: `vi(`, `vi{`, `vi[`, `vi"`, `vi'`
 
 ### Selecting Including Delimiters
-- `va{` or `va}`: Select everything within the curly braces, including the braces themselves.  
+- `va` followed by an opening delimiter (e.g., `(`, `{`, `[`, `"`, `'`) selects everything within the delimiters, including the delimiters themselves.
+  - Examples: `va(`, `va{`, `va[`, `va"`, `va'`
 
 ### Copying (Yanking) Blocks
-- `ya{` or `ya}`: Yank (copy) the entire block of text, including the curly braces.
+- `ya` followed by an opening delimiter (e.g., `(`, `{`, `[`, `"`, `'`) yanks (copies) the entire block of text, including the delimiters.
+  - Examples: `ya(`, `ya{`, `ya[`, `ya"`, `ya'`
 
 ### Word Selection
 - `viw`: Select the word the cursor is currently on, regardless of cursor position within the word.
