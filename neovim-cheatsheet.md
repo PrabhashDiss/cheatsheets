@@ -1,7 +1,5 @@
 # Neovim Cheatsheet
 
-## Advanced Text Selection Commands
-
 ### Selecting Text Within Delimiters
 - `vi` followed by an opening delimiter (e.g., `(`, `{`, `[`, `"`, `'`) selects all text within the matching delimiters (excluding the delimiters).
   - Examples: `vi(`, `vi{`, `vi[`, `vi"`, `vi'`
