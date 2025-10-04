@@ -11,3 +11,16 @@
 ## Word Selection
 - `viw`: Select current word
 - `viW`: Select current WORD (including punctuation)
+
+## Text Change
+
+| Command | Description |
+|---------|-------------|
+| `ci` + delimiter | Change text within delimiters (excluding them). Delimiters: `(`, `{`, `[`, `"`, `'` |
+| `ca` + delimiter | Change text including delimiters. Delimiters: `(`, `{`, `[`, `"`, `'` |
+
+## Word Change
+- `cw`: Change current word (from cursor to end of word)
+- `ciw`: Change inner word
+- `caw`: Change a word (including surrounding spaces)
+- `cW`: Change current WORD (including punctuation)
