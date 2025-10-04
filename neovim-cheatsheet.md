@@ -14,3 +14,4 @@
 
 ### Word Selection
 - `viw`: Select the word the cursor is currently on, regardless of cursor position within the word.
+- `viW`: Select the WORD (big word, including surrounding punctuation) the cursor is currently on.
