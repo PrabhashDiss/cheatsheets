@@ -8,7 +8,6 @@
 
 ### Selecting Including Delimiters
 - `va{` or `va}`: Select everything within the curly braces, including the braces themselves.  
-  *Note: Available in Vim 8 and Neovim. For Vim 7 and earlier, jump to the opening brace with `f{` then use `va{`.*
 
 ### Copying (Yanking) Blocks
 - `ya{` or `ya}`: Yank (copy) the entire block of text, including the curly braces.
