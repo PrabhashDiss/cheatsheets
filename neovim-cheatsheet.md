@@ -34,3 +34,21 @@
 | `t` + char | Find next occurrence of char on the current line, stopping before it |
 | `T` + char | Find previous occurrence of char on the current line, stopping before it |
 | `r` + char | Replace the character under the cursor with char |
+
+## Searching
+- `/foo` : Search for the word "foo"
+- `n` : Next occurrence
+- `N` : Previous occurrence
+
+## Substitution
+Basic `%s` syntax: `:[range]s/pattern/replacement/[flags]`
+
+- **range**: Where to apply the substitution
+  - `%` : Whole file
+  - `.` : Current line
+  - `1,10` : Lines 1–10
+- **pattern**: The word or regex to match
+- **replacement**: What to replace it with
+- **flags**:
+  - `g` : Replace all matches on a line (global per line)
+  - `c` : Confirm each replacement
