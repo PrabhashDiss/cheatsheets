@@ -94,6 +94,7 @@
 - `: set -g OPTION` - Set OPTION for all sessions
 - `: setw -g OPTION` - Set OPTION for all windows
 - `: set mouse on` - Enable mouse mode
+- `Hold Shift while clicking and dragging to select text. This bypasses tmux and lets your terminal emulator handle the selection directly.`
 
 ## Help
 
