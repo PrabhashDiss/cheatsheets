@@ -74,6 +74,18 @@ This cheatsheet is organized into three categories: Command, Count, and Motion.
 - Yank a line into register `b` and paste it below: `"byy` then move and `"bp`
 - Record a simple macro that deletes a word and moves right: `qaxdwq` then run it with `@a`
 
+## Fugitive key mappings
+
+| Command | Description |
+|---------|-------------|
+| `:G` | Open Git status |
+| `g?` | Show Fugitive help |
+| `s` | Stage changes |
+| `u` | Unstage changes |
+| `X` | Discard changes |
+| `=` | Show inline diff |
+| `dv` | Show vertical diff |
+| `do` | Get changes from other buffer |
 
 ```
 
