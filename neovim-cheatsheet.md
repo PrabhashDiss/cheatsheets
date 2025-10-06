@@ -32,6 +32,7 @@ This cheatsheet is organized into three categories: Command, Count, and Motion.
 | `q{reg}` / `q` | Start/stop macro recording |
 | `@{reg}` | Execute macro in register |
 | `zz` | Center the current line in the window |
+| `C-o` | Jump to previous cursor position |
 | `==` | Auto-indent the current line |
 | `=ap` | Re-indent a paragraph/object |
 | `dap` | Delete a paragraph (a paragraph object) |
