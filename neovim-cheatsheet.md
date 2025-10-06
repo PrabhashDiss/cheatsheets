@@ -73,3 +73,20 @@ This cheatsheet is organized into three categories: Command, Count, and Motion.
 - Yank a line into register `b` and paste it below: `"byy` then move and `"bp`
 - Record a simple macro that deletes a word and moves right: `qaxdwq` then run it with `@a`
 
+
+```
+
+## LSP key mappings
+
+| Key | LSP action |
+|-----|------------|
+| `g r a` | LSP: [G]loto Code [A]ction |
+| `g r d` | LSP: [G]oto [D]efinition |
+| `g r D` | LSP: [G]oto [D]eclaration |
+| `g r i` | LSP: [G]oto [I]mplementation |
+| `g r r` | LSP: [G]oto [R]eferences |
+| `g r n` | LSP: [R]e[n]ame |
+| `g r t` | LSP: [G]oto [T]ype Definition |
+
+```
+
